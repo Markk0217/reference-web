@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainPhoto {
+  background-image: url("1.jpg");
+  width:1400px;
+  height:800px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+.actorBox {
+  box-sizing: border-box;
+  width: 1400px;
+  height: 800px;
+  background-color: inherit;
+  border: 0.5px;
+  padding: 10px;
+
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.actorName {
+  font-family: 'Big Shoulders Display', cursive;
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.tagline {
+  box-sizing: border-box;
+  width: 700px;
+  height: 200px;
+  border: 0.5px;
+  padding-top: 150px;
+
+}
+
+.quote {
+  font-family: 'Big Shoulders Display', cursive;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -500px;
+  margin-left: 60px;
+  line-height: 10px;
+  letter-spacing: 2px;
+
+}
+
+.arthur {
+  font-family: 'Big Shoulders Display', cursive;
+  font-style: italic;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 250px;
+  letter-spacing: 3px;
+}
+
+.production {
+  font-family: 'Big Shoulders Display', cursive;
+  color: white;
+  font-size: 15px;
+  margin-top: -750px;
+  margin-left: 1000px;
+  letter-spacing: 3px;
+  margin-bottom: -10px;
+}
+
+.makemelaugh {
+  font-family: 'Big Shoulders Display', cursive;
+  color: white;
+  font-size: 90px;
+  margin-top: 2px;
+  margin-left: 880px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+
+
+.credits {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  font-family: 'Big Shoulders Display', cursive;
+  margin-left: 815px;
+  margin-top: 2px;
+  text-align: center;
+  color: white;
+  line-height: 3px;
+}
+
+.credit1 {
+  font-size: 15px;
+}
+
+.credit2 {
+  font-size: 30px;
+}
+
+.coming {
+  font-family: 'Big Shoulders Display', cursive;
+  color: white;
+  margin-left: 840px;
+  margin-top: 45px;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 28px;
+  line-height: 60px;
+  font-weight: lighter;
+}
+
+.website {
+  margin-top: 50px;
+  margin-left: 826px;
+  font-family: 'Big Shoulders Display', cursive;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 3px;
+
+
+}
